@@ -60,15 +60,15 @@ public class NewsFeed
     public static void main(String[] args) {
         NewsFeed newsFeed = new NewsFeed();
         
-        MessagePost message1 = new MessagePost("Kevin Leonard", "Hallo semua");
+        MessagePost message1 = new MessagePost("Naruto Sitanggang", "Halo semuanya");
         message1.like();
-        message1.addComment("Hallo juga kevin");
+        message1.addComment("Halo juga Naruto");
         
         newsFeed.addMessagePost(message1);
         message1.addComment("Selamat pagi");
         
         
-        PhotoPost photo1 = new PhotoPost("Vinard", "image1.jpg", "Ini adalah poto saya waktu liburan");
+        PhotoPost photo1 = new PhotoPost("Marion", "image1.jpg", "Ini adalah foto liburan saya");
         photo1.like();
         photo1.addComment("Wah poto yang indah");
         
